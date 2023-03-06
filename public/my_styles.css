@@ -1,0 +1,52 @@
+* {
+  /*border: thin black dashed;*/
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.row{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button {
+  color: teal;
+  border: 2px teal solid;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.player-card {
+  border: 2px magenta solid;
+  border-radius: 5px;
+  width: 49%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.computer-card {
+  border: 2px yellow solid;
+  border-radius: 5px;
+  width: 49%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.one-third{
+  width: 32%;
+}
+
+.result{
+  border: 1px black solid;
+  border-radius:5px;
+  display: flex;
+  justify-content: center;
+}
