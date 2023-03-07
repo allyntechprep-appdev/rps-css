@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Audiowide', cursive;
 }
 
 .row {
@@ -15,7 +15,8 @@ body {
 .button {
   margin: 10px;
   color: rgb(15, 232, 192);
-  border: 2px rgb(15, 232, 192);
+  border: 2px rgb(15, 232, 192) solid;
+  background-color:rgba(15, 232, 192, 0.18);
   border-radius: 5px;
   text-decoration: none;
   width: 100%;
@@ -26,7 +27,9 @@ body {
 }
 
 .player-card {
-  border: 2px rgb(255, 47, 192) solid;
+  margin: 10px;
+  border: 2px rgb(255, 47, 179) solid;
+  background-color: rgba(255, 47, 179, 0.462);
   border-radius: 5px;
   width: 49%;
   display: flex;
@@ -34,7 +37,9 @@ body {
 }
 
 .computer-card {
-  border: 2px rgb(255, 208, 0) solid;
+  margin: 10px;
+  border: 2px rgb(255, 199, 43) solid;
+  background-color: rgba(255, 199, 43, 0.462);
   border-radius: 5px;
   width: 49%;
   display: flex;
@@ -46,14 +51,16 @@ body {
 }
 
 .result{
-  border: 3px black dashed;
-  border-radius:5px;
   display: flex;
   justify-content: center;
 }
 
-.home{
+.home a{
+  color:blue;
   border: thin blue solid;
   border-radius: 3px;
   text-decoration: none;
+  width: 8%;
+  display:inline-block;
+  padding: 5px;
 }
