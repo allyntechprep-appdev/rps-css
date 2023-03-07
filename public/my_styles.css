@@ -7,12 +7,13 @@ body {
   font-family: 'Space Mono', monospace;
 }
 
-.row{
+.row {
   display: flex;
   justify-content: space-evenly;
 }
 
 .button {
+  margin: 10px;
   color: rgb(15, 232, 192);
   border: 2px rgb(15, 232, 192);
   border-radius: 5px;
@@ -49,4 +50,10 @@ body {
   border-radius:5px;
   display: flex;
   justify-content: center;
+}
+
+.home{
+  border: thin blue solid;
+  border-radius: 3px;
+  text-decoration: none;
 }
